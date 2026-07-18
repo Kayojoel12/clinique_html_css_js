@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Corps Médical - Clinique Médicale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER UNIQUE AVEC TRAIT BLEU -->
+    <header class="navbar">
+        <div class="container container-nav">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-plus"></i>
+                    <div class="logo-ring"></div>
+                </div>
+                <div class="logo-text">
+                    <span class="sub-text">Clinique</span>
+                    <span class="main-text">Médicale</span>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="apropos.html" class="nav-link">À propos</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="medecins.html" class="nav-link">Médecins</a>
+                <a href="actualites.html" class="nav-link">Actualités</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="btn btn-primary btn-nav-mobile">Prendre RDV</a>
+            </nav>
+            <a href="contact.html" class="btn btn-primary btn-nav-desktop">Prendre RDV</a>
+        </div>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <!-- BANNIÈRE DE PAGE -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Nos praticiens</h1>
+            <div class="breadcrumb"><a href="index.html">Accueil</a> &gt; Praticiens</div>
+        </div>
+    </section>
+
+    <!-- SECTION MÉDECINS MAQUETTÉE -->
+    <section class="doctors-section container">
+        <div class="doctors-grid">
+
+            <!-- Médecin 1 -->
+            <div class="doctor-card">
+                <div class="doctor-img-container">
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400"
+                        alt="Dr. Jean Ntenga">
+                </div>
+                <div class="doctor-info">
+                    <h4 class="doctor-name">Dr. Jean Ntenga</h4>
+                    <p class="doctor-specialty">Médecin Généraliste</p>
+                    <div class="doctor-socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Médecin 2 -->
+            <div class="doctor-card">
+                <div class="doctor-img-container">
+                    <img src="https://images.unsplash.com/photo-1594824813573-246434e33963?auto=format&fit=crop&q=80&w=400"
+                        alt="Dr. Marie Edimo">
+                </div>
+                <div class="doctor-info">
+                    <h4 class="doctor-name">Dr. Marie Edimo</h4>
+                    <p class="doctor-specialty">Cardiologue</p>
+                    <div class="doctor-socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Médecin 3 -->
+            <div class="doctor-card">
+                <div class="doctor-img-container">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400"
+                        alt="Dr. Alain Mbarga">
+                </div>
+                <div class="doctor-info">
+                    <h4 class="doctor-name">Dr. Alain Mbarga</h4>
+                    <p class="doctor-specialty">Chirurgien</p>
+                    <div class="doctor-socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Médecin 4 -->
+            <div class="doctor-card">
+                <div class="doctor-img-container">
+                    <img src="https://images.unsplash.com/photo-1591604021695-0c69b7c05981?auto=format&fit=crop&q=80&w=400"
+                        alt="Dr. Sophie Kamga">
+                </div>
+                <div class="doctor-info">
+                    <h4 class="doctor-name">Dr. Sophie Kamga</h4>
+                    <p class="doctor-specialty">Pédiatre</p>
+                    <div class="doctor-socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER DESIGN UNIQUE AVEC TRAIT BLEU -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <!-- Col 1: Logo & Présentation -->
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-plus"></i>
+                        <div class="logo-ring"></div>
+                    </div>
+                    <div class="logo-text"><span class="sub-text">Clinique</span><span class="main-text">Médicale</span>
+                    </div>
+                </div>
+                <p class="footer-desc">Votre santé est notre priorité. Nous offrons des soins de qualité dans un
+                    environnement moderne et sécurisé.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2: Liens Rapides -->
+            <div class="footer-col">
+                <h3>Liens rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="medecins.html">Médecins</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Nos Services -->
+            <div class="footer-col">
+                <h3>Nos services</h3>
+                <ul class="footer-links">
+                    <li><a href="services.html">Consultations</a></li>
+                    <li><a href="services.html">Urgences 24h/24</a></li>
+                    <li><a href="services.html">Hospitalisation</a></li>
+                    <li><a href="services.html">Laboratoire</a></li>
+                    <li><a href="services.html">Imagerie médicale</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Contactez-nous -->
+            <div class="footer-col">
+                <h3>Contactez-nous</h3>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>BP 1234, Douala, Cameroun<br>Quartier Bonanjo</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+237 6 99 99 99 99<br>+237 2 33 33 33 33</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contact@cliniquemedicale.cm</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom copyright bar -->
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Clinique Médicale. Tous droits réservés.</span>
+            <div class="footer-bottom-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
